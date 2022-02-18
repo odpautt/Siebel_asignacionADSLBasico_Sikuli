@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0 (Python 3.8.0 on win32)" generated="20220218 11:08:24.793" rpa="false" schemaversion="2">
+<suite id="s1" name="Siebel AsignacionADSL" source="d:\Documents\Automatización Sanity CRM Portal\AsignacionADSL_RobotFrameWork_Sikuli\test\Siebel_AsignacionADSL.robot">
+<test id="s1-t1" name="Realiza el inicio de la sesion en siebel">
+<kw name="Ir a Siebel" library="irASiebel">
+<kw name="carga las imagenes" library="irASiebel">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\irASiebel</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:08:29.156" endtime="20220218 11:08:29.179"/>
+</kw>
+<status status="PASS" starttime="20220218 11:08:29.155" endtime="20220218 11:08:29.180"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>IE3.png</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:08:30.600" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200509850.png'/&gt;
+[log] CLICK on L[222,1060]@S(0) (544 msec)</msg>
+<status status="PASS" starttime="20220218 11:08:29.181" endtime="20220218 11:08:30.607"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:08:32.634" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:08:30.608" endtime="20220218 11:08:32.635"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>barranavegacion4.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:08:33.748" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200512966.png'/&gt;
+[log] CLICK on L[161,38]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:08:32.636" endtime="20220218 11:08:33.750"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:08:34.761" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:08:33.751" endtime="20220218 11:08:34.762"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>DELETE</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:08:34.859" level="INFO">[log]  TYPE "#DEL."</msg>
+<status status="PASS" starttime="20220218 11:08:34.762" endtime="20220218 11:08:34.860"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:08:35.876" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:08:34.860" endtime="20220218 11:08:35.877"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>http://crmpre/ecommunications_esn/start.swe?</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:08:39.115" level="INFO">Input Text:
+http://crmpre/ecommunications_esn/start.swe?
+[log]  TYPE "http://crmpre/ecommunications_esn/start.swe?"</msg>
+<status status="PASS" starttime="20220218 11:08:35.877" endtime="20220218 11:08:39.115"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:08:39.236" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:08:39.115" endtime="20220218 11:08:39.236"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:08:41.242" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:08:39.236" endtime="20220218 11:08:41.242"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>barranavegacion4.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:08:42.397" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200521595.png'/&gt;
+[log] CLICK on L[1472,38]@S(0) (535 msec)</msg>
+<status status="PASS" starttime="20220218 11:08:41.242" endtime="20220218 11:08:42.397"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:08:42.463" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:08:42.397" endtime="20220218 11:08:42.463"/>
+</kw>
+<status status="PASS" starttime="20220218 11:08:29.152" endtime="20220218 11:08:42.463"/>
+</kw>
+<kw name="Iniciar Sesion" library="irASiebel">
+<arg>avargrod</arg>
+<arg>Colombia3456..++</arg>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:08:43.478" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:08:42.474" endtime="20220218 11:08:43.479"/>
+</kw>
+<kw name="Wait Until Screen Contain" library="SikuliLibrary">
+<arg>usuario.png</arg>
+<arg>8</arg>
+<doc>Wait until screen contain
+ Wait until image shown in screen</doc>
+<msg timestamp="20220218 11:08:43.766" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200523755.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:08:43.483" endtime="20220218 11:08:43.766"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>usuario.png</arg>
+<arg>${user}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:08:45.463" level="INFO">Input Text:
+avargrod</msg>
+<msg timestamp="20220218 11:08:45.463" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200524108.png'/&gt;
+[log] CLICK on L[1045,497]@S(0) (547 msec)
+[log]  TYPE "avargrod"</msg>
+<status status="PASS" starttime="20220218 11:08:43.766" endtime="20220218 11:08:45.463"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>contrasena.png</arg>
+<arg>${password}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:08:47.662" level="INFO">Input Text:
+Colombia3456..++</msg>
+<msg timestamp="20220218 11:08:47.662" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200525760.png'/&gt;
+[log] CLICK on L[1190,495]@S(0) (548 msec)
+[log]  TYPE "Colombia3456..++"</msg>
+<status status="PASS" starttime="20220218 11:08:45.463" endtime="20220218 11:08:47.662"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:08:47.987" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200527747.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:08:47.662" endtime="20220218 11:08:47.987"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>ingresar.png</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:08:49.106" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200528337.png'/&gt;
+[log] CLICK on L[1276,504]@S(0) (548 msec)</msg>
+<status status="PASS" starttime="20220218 11:08:47.996" endtime="20220218 11:08:49.106"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:08:53.116" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20220218 11:08:49.110" endtime="20220218 11:08:53.117"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:08:53.197" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:08:53.118" endtime="20220218 11:08:53.197"/>
+</kw>
+<status status="PASS" starttime="20220218 11:08:42.472" endtime="20220218 11:08:53.197"/>
+</kw>
+<status status="PASS" starttime="20220218 11:08:29.148" endtime="20220218 11:08:53.207"/>
+</test>
+<test id="s1-t2" name="Creacion de un cliente nuevo">
+<kw name="Crear Cliente Nuevo" library="CrearClienteNuevo">
+<kw name="cargarimagenesCrearCliente" library="CrearClienteNuevo">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\crearCliente</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:08:53.217" endtime="20220218 11:08:53.233"/>
+</kw>
+<status status="PASS" starttime="20220218 11:08:53.217" endtime="20220218 11:08:53.234"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>7</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:00.243" level="INFO">Slept 7 seconds</msg>
+<status status="PASS" starttime="20220218 11:08:53.236" endtime="20220218 11:09:00.244"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>pestanaCuentas.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:01.497" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200540643.png'/&gt;
+[log] CLICK on L[138,161]@S(0) (536 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:00.244" endtime="20220218 11:09:01.497"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>link_AllAccounts.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:03.304" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200542525.png'/&gt;
+[log] CLICK on L[58,309]@S(0) (536 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:01.497" endtime="20220218 11:09:03.304"/>
+</kw>
+<kw name="Wait Until Screen Contain" library="SikuliLibrary">
+<arg>btnNuevo.PNG</arg>
+<arg>10</arg>
+<doc>Wait until screen contain
+ Wait until image shown in screen</doc>
+<msg timestamp="20220218 11:09:04.648" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200544647.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:09:03.304" endtime="20220218 11:09:04.648"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnNuevo.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:05.790" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200544996.png'/&gt;
+[log] CLICK on L[276,208]@S(0) (537 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:04.648" endtime="20220218 11:09:05.790"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:06.792" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:05.790" endtime="20220218 11:09:06.793"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnMaximizarVentanaCreacionCliente.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:07.904" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200547079.png'/&gt;
+[log] CLICK on L[1286,441]@S(0) (538 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:06.793" endtime="20220218 11:09:07.905"/>
+</kw>
+<status status="PASS" starttime="20220218 11:08:53.217" endtime="20220218 11:09:07.905"/>
+</kw>
+<status status="PASS" starttime="20220218 11:08:53.213" endtime="20220218 11:09:07.906"/>
+</test>
+<test id="s1-t3" name="creacion cuenta cliente">
+<kw name="Crear Cuenta Cliente" library="creacionCuentaCliente">
+<arg>1013597241</arg>
+<arg>29/06/1980</arg>
+<kw name="cargarImagenesCrearCuentaCliente" library="creacionCuentaCliente">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\crearCuentaCliente</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:09:07.915" endtime="20220218 11:09:07.933"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:07.915" endtime="20220218 11:09:07.933"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:08.956" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:07.933" endtime="20220218 11:09:08.957"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnConsulta.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:09.977" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200549249.png'/&gt;
+[log] CLICK on L[114,58]@S(0) (543 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:08.957" endtime="20220218 11:09:09.977"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:11.986" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:09:09.977" endtime="20220218 11:09:11.986"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>tipoDocumento.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:13.239" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200552387.png'/&gt;
+[log] CLICK on L[954,584]@S(0) (552 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:11.986" endtime="20220218 11:09:13.239"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:14.258" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:13.239" endtime="20220218 11:09:14.258"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>DOWN</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:14.353" level="INFO">[log]  TYPE "#DOWN."</msg>
+<status status="PASS" starttime="20220218 11:09:14.258" endtime="20220218 11:09:14.353"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:15.359" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:14.353" endtime="20220218 11:09:15.360"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>DOWN</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:15.444" level="INFO">[log]  TYPE "#DOWN."</msg>
+<status status="PASS" starttime="20220218 11:09:15.360" endtime="20220218 11:09:15.444"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:16.461" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:15.444" endtime="20220218 11:09:16.462"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:16.546" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:09:16.462" endtime="20220218 11:09:16.546"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:17.564" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:16.546" endtime="20220218 11:09:17.564"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:17.644" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:09:17.564" endtime="20220218 11:09:17.644"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:19.648" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:09:17.644" endtime="20220218 11:09:19.648"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${numeroDocumento}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:09:20.382" level="INFO">Input Text:
+1013597241
+[log]  TYPE "1013597241"</msg>
+<status status="PASS" starttime="20220218 11:09:19.648" endtime="20220218 11:09:20.382"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:21.383" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:20.382" endtime="20220218 11:09:21.384"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:21.467" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:09:21.384" endtime="20220218 11:09:21.467"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:22.486" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:21.467" endtime="20220218 11:09:22.486"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${FechaExpedicionDocumento}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:09:23.259" level="INFO">Input Text:
+29/06/1980
+[log]  TYPE "29/06/1980"</msg>
+<status status="PASS" starttime="20220218 11:09:22.486" endtime="20220218 11:09:23.259"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:24.269" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:23.259" endtime="20220218 11:09:24.269"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnIr2.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:25.306" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200564537.png'/&gt;
+[log] CLICK on L[803,525]@S(0) (552 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:24.269" endtime="20220218 11:09:25.309"/>
+</kw>
+<kw name="Wait Until Screen Not Contain" library="SikuliLibrary">
+<arg>btnIr2.PNG</arg>
+<arg>30</arg>
+<doc>Wait until screen not contain
+ Wait until image not in screen</doc>
+<msg timestamp="20220218 11:09:25.822" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200565590.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:09:25.309" endtime="20220218 11:09:25.822"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:27.841" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:09:25.822" endtime="20220218 11:09:27.841"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:07.915" endtime="20220218 11:09:27.841"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:07.912" endtime="20220218 11:09:27.841"/>
+</test>
+<test id="s1-t4" name="Diligencia Datos Basicos del cliente nuevo">
+<kw name="Diligenciar Datos Basicos Cliente" library="creacionCuentaCliente">
+<arg>German</arg>
+<arg>Cespedes</arg>
+<arg>6019208103</arg>
+<arg>3017262123</arg>
+<kw name="cargarImagenesDatosBasicos" library="creacionCuentaCliente">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\diligenciarDatosBasicosCliente</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:09:27.852" endtime="20220218 11:09:27.878"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:27.852" endtime="20220218 11:09:27.878"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:32.888" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220218 11:09:27.878" endtime="20220218 11:09:32.888"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>primerNombre.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:34.106" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200573275.png'/&gt;
+[log] CLICK on L[988,553]@S(0) (553 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:32.888" endtime="20220218 11:09:34.106"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${primer Nombre}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:09:34.607" level="INFO">Input Text:
+German
+[log]  TYPE "German"</msg>
+<status status="PASS" starttime="20220218 11:09:34.106" endtime="20220218 11:09:34.607"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:35.608" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:34.607" endtime="20220218 11:09:35.608"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:35.686" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:09:35.608" endtime="20220218 11:09:35.687"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:36.689" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:35.688" endtime="20220218 11:09:36.689"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${telefonoFijo}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:09:37.414" level="INFO">Input Text:
+6019208103
+[log]  TYPE "6019208103"</msg>
+<status status="PASS" starttime="20220218 11:09:36.689" endtime="20220218 11:09:37.414"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:37.488" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:09:37.414" endtime="20220218 11:09:37.489"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:37.568" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:09:37.489" endtime="20220218 11:09:37.568"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:37.671" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:09:37.568" endtime="20220218 11:09:37.671"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:38.680" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:37.671" endtime="20220218 11:09:38.680"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${celular}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:09:39.426" level="INFO">Input Text:
+3017262123
+[log]  TYPE "3017262123"</msg>
+<status status="PASS" starttime="20220218 11:09:38.680" endtime="20220218 11:09:39.426"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:39.500" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:09:39.427" endtime="20220218 11:09:39.500"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:09:39.581" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:09:39.502" endtime="20220218 11:09:39.581"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:40.584" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:39.581" endtime="20220218 11:09:40.584"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${primerApellido}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:09:41.222" level="INFO">Input Text:
+Cespedes
+[log]  TYPE "Cespedes"</msg>
+<status status="PASS" starttime="20220218 11:09:40.584" endtime="20220218 11:09:41.222"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:42.223" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:41.222" endtime="20220218 11:09:42.223"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnCrearCuenta.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:43.357" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200582523.png'/&gt;
+[log] CLICK on L[770,494]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:42.223" endtime="20220218 11:09:43.357"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:27.852" endtime="20220218 11:09:43.357"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:27.851" endtime="20220218 11:09:43.361"/>
+</test>
+<test id="s1-t5" name="Diligencia direccion Asosiado">
+<kw name="Asociar Direccion al cliente" library="AsociarDireccionCliente">
+<arg>Antioquia</arg>
+<arg>"Medellin"</arg>
+<arg>"Castilla"</arg>
+<arg>KR 85 # 85 - 129</arg>
+<arg>"Urbano"</arg>
+<kw name="cargarImagenesAsociarDireccion" library="AsociarDireccionCliente">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\asociarDireccionCliente</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:09:43.364" endtime="20220218 11:09:43.381"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:43.364" endtime="20220218 11:09:43.382"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:44.384" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:43.383" endtime="20220218 11:09:44.385"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>Titulo_primerNombreRazonSocial_.PNG</arg>
+<arg>xOffset=-50</arg>
+<arg>yOffset=20</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:45.575" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200585043.png'/&gt;
+[log] CLICK on L[46,251]@S(0) (529 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:44.386" endtime="20220218 11:09:45.575"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:51.577" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20220218 11:09:45.575" endtime="20220218 11:09:51.577"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>pestanaDirecciones.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:52.622" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200591843.png'/&gt;
+[log] CLICK on L[80,569]@S(0) (541 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:51.577" endtime="20220218 11:09:52.622"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:53.645" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:52.628" endtime="20220218 11:09:53.645"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>linkBusquedaDirecciones.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:55.793" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200595010.png'/&gt;
+[log] CLICK on L[71,585]@S(0) (531 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:53.645" endtime="20220218 11:09:55.793"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:09:57.815" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:09:55.793" endtime="20220218 11:09:57.815"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnConsultaDireccion.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:09:59.272" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200598467.png'/&gt;
+[log] CLICK on L[123,644]@S(0) (543 msec)</msg>
+<status status="PASS" starttime="20220218 11:09:57.815" endtime="20220218 11:09:59.272"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:00.274" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:09:59.272" endtime="20220218 11:10:00.274"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>cajonDepartamento.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:10:01.439" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200600636.png'/&gt;
+[log] CLICK on L[203,685]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:10:00.274" endtime="20220218 11:10:01.439"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>DOWN</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:01.522" level="INFO">[log]  TYPE "#DOWN."</msg>
+<status status="PASS" starttime="20220218 11:10:01.439" endtime="20220218 11:10:01.522"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:02.524" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:10:01.522" endtime="20220218 11:10:02.524"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${Ciudad}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:10:03.178" level="INFO">Input Text:
+Antioquia
+[log]  TYPE "Antioquia"</msg>
+<status status="PASS" starttime="20220218 11:10:02.524" endtime="20220218 11:10:03.178"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:03.255" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:10:03.178" endtime="20220218 11:10:03.255"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:04.278" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:10:03.255" endtime="20220218 11:10:04.278"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:04.359" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:10:04.278" endtime="20220218 11:10:04.359"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${Departamento}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:10:05.278" level="INFO">Input Text:
+"Medellin"
+[log]  TYPE ""Medellin""</msg>
+<status status="PASS" starttime="20220218 11:10:04.359" endtime="20220218 11:10:05.278"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:05.379" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:10:05.278" endtime="20220218 11:10:05.380"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:06.392" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:10:05.383" endtime="20220218 11:10:06.393"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${Barrio}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:10:07.230" level="INFO">Input Text:
+"Castilla"
+[log]  TYPE ""Castilla""</msg>
+<status status="PASS" starttime="20220218 11:10:06.393" endtime="20220218 11:10:07.230"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:07.330" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:10:07.230" endtime="20220218 11:10:07.330"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:08.333" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:10:07.330" endtime="20220218 11:10:08.333"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${Direccion}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:10:09.597" level="INFO">Input Text:
+KR 85 # 85 - 129
+[log]  TYPE "KR 85 # 85 - 129"</msg>
+<status status="PASS" starttime="20220218 11:10:08.333" endtime="20220218 11:10:09.597"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:09.688" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:10:09.597" endtime="20220218 11:10:09.688"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:09.784" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:10:09.688" endtime="20220218 11:10:09.784"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:09.866" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:10:09.784" endtime="20220218 11:10:09.866"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:09.942" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:10:09.866" endtime="20220218 11:10:09.942"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:10.953" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:10:09.942" endtime="20220218 11:10:10.953"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${Sector}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:10:11.638" level="INFO">Input Text:
+"Urbano"
+[log]  TYPE ""Urbano""</msg>
+<status status="PASS" starttime="20220218 11:10:10.953" endtime="20220218 11:10:11.638"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:10:11.752" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:10:11.638" endtime="20220218 11:10:11.752"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:12.758" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:10:11.752" endtime="20220218 11:10:12.759"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnIr.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:10:13.921" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200613141.png'/&gt;
+[log] CLICK on L[110,645]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:10:12.763" endtime="20220218 11:10:13.921"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:16.928" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220218 11:10:13.926" endtime="20220218 11:10:16.929"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnAgregarDireccion.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:10:18.033" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200617212.png'/&gt;
+[log] CLICK on L[211,643]@S(0) (537 msec)</msg>
+<status status="PASS" starttime="20220218 11:10:16.929" endtime="20220218 11:10:18.033"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:43.364" endtime="20220218 11:10:18.033"/>
+</kw>
+<status status="PASS" starttime="20220218 11:09:43.363" endtime="20220218 11:10:18.037"/>
+</test>
+<test id="s1-t6" name="Realiza la paginacion y actulizacion de Cobertura">
+<kw name="Paginar y Actualizar Cobertura" library="AsociarDireccionCliente">
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:10:18.449" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200618108.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:10:18.041" endtime="20220218 11:10:18.449"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>40</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:10:58.450" level="INFO">Slept 40 seconds</msg>
+<status status="PASS" starttime="20220218 11:10:18.449" endtime="20220218 11:10:58.450"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>tituloDireccionesCuenta.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:10:59.631" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200658814.png'/&gt;
+[log] CLICK on L[1018,619]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:10:58.450" endtime="20220218 11:10:59.631"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:03.637" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20220218 11:10:59.635" endtime="20220218 11:11:03.637"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnPaginarr.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:04.654" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200663874.png'/&gt;
+[log] CLICK on L[1444,622]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:03.637" endtime="20220218 11:11:04.654"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:06.671" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:11:04.654" endtime="20220218 11:11:06.672"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:11:06.760" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:11:06.672" endtime="20220218 11:11:06.760"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:08.770" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:11:06.761" endtime="20220218 11:11:08.771"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnPaginarr.PNG</arg>
+<arg>xOffset=-50</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:09.621" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200669054.png'/&gt;
+[log] CLICK on L[1394,622]@S(0) (560 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:08.771" endtime="20220218 11:11:09.621"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:14.630" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220218 11:11:09.621" endtime="20220218 11:11:14.630"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:11:14.698" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:11:14.630" endtime="20220218 11:11:14.698"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:11:15.077" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200674782.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:11:14.698" endtime="20220218 11:11:15.077"/>
+</kw>
+<status status="PASS" starttime="20220218 11:10:18.041" endtime="20220218 11:11:15.093"/>
+</kw>
+<status status="PASS" starttime="20220218 11:10:18.039" endtime="20220218 11:11:15.096"/>
+</test>
+<test id="s1-t7" name="Agrega el contacto al cliente">
+<kw name="Agregar Contactos al Cliente" library="agregarContactos">
+<kw name="cargarImagenesAgregarContactos" library="agregarContactos">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\agregarContactos</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:11:15.102" endtime="20220218 11:11:15.124"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:15.102" endtime="20220218 11:11:15.124"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>pestanaContactos.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:16.200" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200675448.png'/&gt;
+[log] CLICK on L[1111,568]@S(0) (531 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:15.124" endtime="20220218 11:11:16.200"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnAgregar.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:18.402" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200677598.png'/&gt;
+[log] CLICK on L[218,600]@S(0) (548 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:16.200" endtime="20220218 11:11:18.402"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:19.403" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:11:18.402" endtime="20220218 11:11:19.404"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnAceptar.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:20.623" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200679787.png'/&gt;
+[log] CLICK on L[1328,709]@S(0) (528 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:19.404" endtime="20220218 11:11:20.624"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>tituloAutorizado.PNG</arg>
+<arg>yOffset=25</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:23.792" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200683260.png'/&gt;
+[log] CLICK on L[1026,651]@S(0) (529 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:20.624" endtime="20220218 11:11:23.792"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>checkBox.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:24.864" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200684043.png'/&gt;
+[log] CLICK on L[1025,647]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:23.792" endtime="20220218 11:11:24.864"/>
+</kw>
+<kw name="Key Down" library="SikuliLibrary">
+<arg>CTRL</arg>
+<doc>Key down
+ Press keyboard key and hold it.</doc>
+<status status="PASS" starttime="20220218 11:11:24.865" endtime="20220218 11:11:24.903"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>s</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:11:24.978" level="INFO">Input Text:
+s
+[log]  TYPE "s"</msg>
+<status status="PASS" starttime="20220218 11:11:24.904" endtime="20220218 11:11:24.978"/>
+</kw>
+<kw name="Key Up" library="SikuliLibrary">
+<arg>CTRL</arg>
+<doc>Key up
+ Release keyboard key.</doc>
+<status status="PASS" starttime="20220218 11:11:24.978" endtime="20220218 11:11:24.998"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:28.013" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220218 11:11:24.998" endtime="20220218 11:11:28.014"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnGenerarDatosAsociados.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:29.074" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200688286.png'/&gt;
+[log] CLICK on L[230,232]@S(0) (550 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:28.015" endtime="20220218 11:11:29.074"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>8</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:37.077" level="INFO">Slept 8 seconds</msg>
+<status status="PASS" starttime="20220218 11:11:29.074" endtime="20220218 11:11:37.077"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:15.102" endtime="20220218 11:11:37.077"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:15.101" endtime="20220218 11:11:37.083"/>
+</test>
+<test id="s1-t8" name="Ir a jerarquia de cuentas">
+<kw name="Jerarquia de cuentas" library="agregarContactos">
+<kw name="cargarImagenesAgregarContactos" library="agregarContactos">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\agregarContactos</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:11:37.091" endtime="20220218 11:11:37.113"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:37.091" endtime="20220218 11:11:37.113"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>pestanaJerarquiaDeCuentas.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:38.265" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200697477.png'/&gt;
+[log] CLICK on L[269,563]@S(0) (561 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:37.113" endtime="20220218 11:11:38.265"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:39.267" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:11:38.265" endtime="20220218 11:11:39.267"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>ctaServicio</arg>
+<arg>xOffset=-70</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:40.103" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200699551.png'/&gt;
+[log] CLICK on L[289,669]@S(0) (550 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:39.267" endtime="20220218 11:11:40.103"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:41.117" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:11:40.103" endtime="20220218 11:11:41.117"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:11:41.479" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200701200.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:11:41.117" endtime="20220218 11:11:41.479"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:37.091" endtime="20220218 11:11:41.479"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:37.089" endtime="20220218 11:11:41.483"/>
+</test>
+<test id="s1-t9" name="Agrega el servicio ADSL">
+<kw name="Agrega servicio ADSL al cliente" library="AgregarServicio">
+<kw name="cargarImagenesAgregarServicio" library="AgregarServicio">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\AgregarServicio</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:11:41.490" endtime="20220218 11:11:41.490"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:41.490" endtime="20220218 11:11:41.490"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnMostrarLista.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:42.589" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200701771.png'/&gt;
+[log] CLICK on L[1798,563]@S(0) (531 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:41.507" endtime="20220218 11:11:42.589"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>ofertasEconomicas</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:43.639" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200702837.png'/&gt;
+[log] CLICK on L[1728,622]@S(0) (537 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:42.589" endtime="20220218 11:11:43.639"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:48.646" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220218 11:11:43.639" endtime="20220218 11:11:48.646"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnNuevo.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:11:49.812" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200708995.png'/&gt;
+[log] CLICK on L[116,586]@S(0) (548 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:48.646" endtime="20220218 11:11:49.813"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>9</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:58.818" level="INFO">Slept 9 seconds</msg>
+<status status="PASS" starttime="20220218 11:11:49.813" endtime="20220218 11:11:58.818"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:11:58.916" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:11:58.818" endtime="20220218 11:11:58.916"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:11:59.918" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:11:58.916" endtime="20220218 11:11:59.918"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>numeroOfertaEconomica.PNG</arg>
+<arg>yOffset=20</arg>
+<arg>xOffset=-10</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:12:00.790" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200720251.png'/&gt;
+[log] CLICK on L[75,628]@S(0) (533 msec)</msg>
+<status status="PASS" starttime="20220218 11:11:59.918" endtime="20220218 11:12:00.790"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>35</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:12:35.798" level="INFO">Slept 35 seconds</msg>
+<status status="PASS" starttime="20220218 11:12:00.790" endtime="20220218 11:12:35.798"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:41.490" endtime="20220218 11:12:35.798"/>
+</kw>
+<status status="PASS" starttime="20220218 11:11:41.486" endtime="20220218 11:12:35.805"/>
+</test>
+<test id="s1-t10" name="Diligenciar Formulario">
+<kw name="Diligencia el formulario" library="AgregarServicio">
+<arg>99999999999</arg>
+<kw name="cargarImagenesAgregarServicio" library="AgregarServicio">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\AgregarServicio</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:12:35.811" endtime="20220218 11:12:35.834"/>
+</kw>
+<status status="PASS" starttime="20220218 11:12:35.811" endtime="20220218 11:12:35.834"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>canalDeVentas.PNG</arg>
+<arg>xOffset=178</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:12:36.713" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200756181.png'/&gt;
+[log] CLICK on L[559,372]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:12:35.834" endtime="20220218 11:12:36.713"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:12:37.715" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:12:36.713" endtime="20220218 11:12:37.715"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnAceptarCanalVentas.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:12:38.911" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200758083.png'/&gt;
+[log] CLICK on L[1308,706]@S(0) (556 msec)</msg>
+<status status="PASS" starttime="20220218 11:12:37.715" endtime="20220218 11:12:38.911"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:12:39.918" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:12:38.911" endtime="20220218 11:12:39.918"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>AsesorDeVentas.PNG</arg>
+<arg>xOffset=178</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:12:40.773" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200760235.png'/&gt;
+[log] CLICK on L[558,398]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:12:39.918" endtime="20220218 11:12:40.773"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:12:41.774" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:12:40.773" endtime="20220218 11:12:41.774"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnAceptarAsesorVentas.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:12:43.062" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200762157.png'/&gt;
+[log] CLICK on L[1207,705]@S(0) (555 msec)</msg>
+<status status="PASS" starttime="20220218 11:12:41.774" endtime="20220218 11:12:43.062"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:12:44.074" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:12:43.062" endtime="20220218 11:12:44.074"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>numeroIVR</arg>
+<arg>xOffset=100</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:12:44.894" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200764358.png'/&gt;
+[log] CLICK on L[484,424]@S(0) (533 msec)</msg>
+<status status="PASS" starttime="20220218 11:12:44.074" endtime="20220218 11:12:44.894"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>${numeroIVR}</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:12:45.630" level="INFO">Input Text:
+99999999999
+[log]  TYPE "99999999999"</msg>
+<status status="PASS" starttime="20220218 11:12:44.894" endtime="20220218 11:12:45.630"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:12:45.710" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:12:45.630" endtime="20220218 11:12:45.710"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>7</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:12:52.711" level="INFO">Slept 7 seconds</msg>
+<status status="PASS" starttime="20220218 11:12:45.710" endtime="20220218 11:12:52.711"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>checkBoxCorreoFisico.PNG</arg>
+<arg>xOffset=140</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:12:53.583" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200773043.png'/&gt;
+[log] CLICK on L[1103,450]@S(0) (537 msec)</msg>
+<status status="PASS" starttime="20220218 11:12:52.711" endtime="20220218 11:12:53.583"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:12:54.597" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:12:53.583" endtime="20220218 11:12:54.597"/>
+</kw>
+<status status="PASS" starttime="20220218 11:12:35.811" endtime="20220218 11:12:54.597"/>
+</kw>
+<status status="PASS" starttime="20220218 11:12:35.811" endtime="20220218 11:12:54.604"/>
+</test>
+<test id="s1-t11" name="Selecciona el producto ADSL">
+<kw name="Seleccionar Producto" library="AgregarServicio">
+<kw name="cargarImagenesAgregarServicio" library="AgregarServicio">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\AgregarServicio</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:12:54.610" endtime="20220218 11:12:54.629"/>
+</kw>
+<status status="PASS" starttime="20220218 11:12:54.610" endtime="20220218 11:12:54.629"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnNuevoADSL.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:12:55.840" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200774998.png'/&gt;
+[log] CLICK on L[119,723]@S(0) (541 msec)</msg>
+<status status="PASS" starttime="20220218 11:12:54.629" endtime="20220218 11:12:55.840"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:12:59.852" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20220218 11:12:55.840" endtime="20220218 11:12:59.852"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnAgregarProducto.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:13:00.940" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200780168.png'/&gt;
+[log] CLICK on L[377,250]@S(0) (533 msec)</msg>
+<status status="PASS" starttime="20220218 11:12:59.852" endtime="20220218 11:13:00.940"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>cajonBuscarProducto.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:13:03.841" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200782977.png'/&gt;
+[log] CLICK on L[1190,430]@S(0) (529 msec)</msg>
+<status status="PASS" starttime="20220218 11:13:00.940" endtime="20220218 11:13:03.841"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>In</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:13:04.009" level="INFO">Input Text:
+In
+[log]  TYPE "In"</msg>
+<status status="PASS" starttime="20220218 11:13:03.841" endtime="20220218 11:13:04.009"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:13:04.095" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:13:04.009" endtime="20220218 11:13:04.095"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:13:06.110" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:13:04.095" endtime="20220218 11:13:06.110"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>seleccionarProducto.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:13:07.260" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200786409.png'/&gt;
+[log] CLICK on L[783,587]@S(0) (558 msec)</msg>
+<status status="PASS" starttime="20220218 11:13:06.111" endtime="20220218 11:13:07.260"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnAceptarProducto.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:13:08.459" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200787579.png'/&gt;
+[log] CLICK on L[1398,717]@S(0) (551 msec)</msg>
+<status status="PASS" starttime="20220218 11:13:07.260" endtime="20220218 11:13:08.459"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>90</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:14:38.468" level="INFO">Slept 1 minute 30 seconds</msg>
+<status status="PASS" starttime="20220218 11:13:08.459" endtime="20220218 11:14:38.468"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>usoDelProducto.PNG</arg>
+<arg>yOffset=20</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:14:39.381" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200878851.png'/&gt;
+[log] CLICK on L[743,244]@S(0) (529 msec)</msg>
+<status status="PASS" starttime="20220218 11:14:38.468" endtime="20220218 11:14:39.382"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:14:40.386" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:14:39.383" endtime="20220218 11:14:40.386"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnListaUsoProducto.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:14:41.553" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200880715.png'/&gt;
+[log] CLICK on L[782,249]@S(0) (535 msec)</msg>
+<status status="PASS" starttime="20220218 11:14:40.386" endtime="20220218 11:14:41.553"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:14:42.554" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:14:41.553" endtime="20220218 11:14:42.554"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnListaUsoProducto.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:14:43.174" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200882857.png'/&gt;
+[log] CLICK on L[782,249]@S(0) (68 msec)</msg>
+<status status="PASS" starttime="20220218 11:14:42.554" endtime="20220218 11:14:43.174"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:14:45.179" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:14:43.174" endtime="20220218 11:14:45.180"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>Residencial.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:14:46.295" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200885479.png'/&gt;
+[log] CLICK on L[742,279]@S(0) (545 msec)</msg>
+<status status="PASS" starttime="20220218 11:14:45.180" endtime="20220218 11:14:46.295"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:14:56.302" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20220218 11:14:46.295" endtime="20220218 11:14:56.303"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnPersonalizar.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:14:57.459" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200896638.png'/&gt;
+[log] CLICK on L[306,203]@S(0) (535 msec)</msg>
+<status status="PASS" starttime="20220218 11:14:56.303" endtime="20220218 11:14:57.459"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>60</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:15:57.473" level="INFO">Slept 1 minute</msg>
+<status status="PASS" starttime="20220218 11:14:57.459" endtime="20220218 11:15:57.473"/>
+</kw>
+<status status="PASS" starttime="20220218 11:12:54.610" endtime="20220218 11:15:57.473"/>
+</kw>
+<status status="PASS" starttime="20220218 11:12:54.609" endtime="20220218 11:15:57.473"/>
+</test>
+<test id="s1-t12" name="Selecciona el Plan para el cliente">
+<kw name="Seleccionar Plan" library="SeleccionarPlan">
+<kw name="cargarImagenesSeleccionarPlan" library="SeleccionarPlan">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\SeleccionarPlan</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:15:57.486" endtime="20220218 11:15:57.505"/>
+</kw>
+<status status="PASS" starttime="20220218 11:15:57.486" endtime="20220218 11:15:57.505"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>7</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:16:04.536" level="INFO">Slept 7 seconds</msg>
+<status status="PASS" starttime="20220218 11:15:57.520" endtime="20220218 11:16:04.536"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>planCargoFijo.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:16:05.729" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200964867.png'/&gt;
+[log] CLICK on L[146,510]@S(0) (557 msec)</msg>
+<status status="PASS" starttime="20220218 11:16:04.536" endtime="20220218 11:16:05.729"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>velocidadPlan10Mbs.png</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:16:07.250" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645200966437.png'/&gt;
+[log] CLICK on L[138,806]@S(0) (542 msec)</msg>
+<status status="PASS" starttime="20220218 11:16:05.729" endtime="20220218 11:16:07.250"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>40</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:16:47.258" level="INFO">Slept 40 seconds</msg>
+<status status="PASS" starttime="20220218 11:16:07.250" endtime="20220218 11:16:47.258"/>
+</kw>
+<status status="PASS" starttime="20220218 11:15:57.486" endtime="20220218 11:16:47.258"/>
+</kw>
+<status status="PASS" starttime="20220218 11:15:57.486" endtime="20220218 11:16:47.258"/>
+</test>
+<test id="s1-t13" name="Selecciona Contrato Permanencia">
+<kw name="Seleccionar Permanencia" library="SeleccionarPlan">
+<kw name="cargarImagenesSeleccionarPlan" library="SeleccionarPlan">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\SeleccionarPlan</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:16:47.271" endtime="20220218 11:16:47.293"/>
+</kw>
+<status status="PASS" starttime="20220218 11:16:47.271" endtime="20220218 11:16:47.293"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>pestanaPermanencia.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:16:48.460" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201007625.png'/&gt;
+[log] CLICK on L[213,442]@S(0) (544 msec)</msg>
+<status status="PASS" starttime="20220218 11:16:47.293" endtime="20220218 11:16:48.460"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:16:50.464" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:16:48.460" endtime="20220218 11:16:50.464"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>listaTipoPermanencia.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:16:51.548" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201010743.png'/&gt;
+[log] CLICK on L[158,499]@S(0) (536 msec)</msg>
+<status status="PASS" starttime="20220218 11:16:50.464" endtime="20220218 11:16:51.548"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>aceptaPermanencia.png</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:16:53.065" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201012237.png'/&gt;
+[log] CLICK on L[153,528]@S(0) (543 msec)</msg>
+<status status="PASS" starttime="20220218 11:16:51.548" endtime="20220218 11:16:53.065"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>55</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:17:48.067" level="INFO">Slept 55 seconds</msg>
+<status status="PASS" starttime="20220218 11:16:53.065" endtime="20220218 11:17:48.067"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnTerminado.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:17:49.220" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201068434.png'/&gt;
+[log] CLICK on L[1350,238]@S(0) (535 msec)</msg>
+<status status="PASS" starttime="20220218 11:17:48.067" endtime="20220218 11:17:49.220"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>25</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:18:14.223" level="INFO">Slept 25 seconds</msg>
+<status status="PASS" starttime="20220218 11:17:49.220" endtime="20220218 11:18:14.224"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>comprobacionPlan.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:18:15.258" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201094527.png'/&gt;
+[log] CLICK on L[45,769]@S(0) (533 msec)</msg>
+<status status="PASS" starttime="20220218 11:18:14.224" endtime="20220218 11:18:15.258"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:18:17.261" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:18:15.258" endtime="20220218 11:18:17.261"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:18:17.713" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201097344.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:18:17.261" endtime="20220218 11:18:17.713"/>
+</kw>
+<status status="PASS" starttime="20220218 11:16:47.271" endtime="20220218 11:18:17.713"/>
+</kw>
+<status status="PASS" starttime="20220218 11:16:47.271" endtime="20220218 11:18:17.721"/>
+</test>
+<test id="s1-t14" name="Estudio de Riesgos">
+<kw name="Realizar Estudio de Riesgos" library="EstudioDeRiesgos">
+<kw name="cargarImagenesEstudioRiesgos" library="EstudioDeRiesgos">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\estudioRiesgos</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:18:17.728" endtime="20220218 11:18:17.746"/>
+</kw>
+<status status="PASS" starttime="20220218 11:18:17.728" endtime="20220218 11:18:17.746"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:18:20.752" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220218 11:18:17.746" endtime="20220218 11:18:20.752"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnEstudioRiesgos.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:18:22.042" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201101124.png'/&gt;
+[log] CLICK on L[565,233]@S(0) (531 msec)</msg>
+<status status="PASS" starttime="20220218 11:18:20.752" endtime="20220218 11:18:22.043"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>38</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:19:00.047" level="INFO">Slept 38 seconds</msg>
+<status status="PASS" starttime="20220218 11:18:22.043" endtime="20220218 11:19:00.047"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnLupa.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:19:01.236" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201140379.png'/&gt;
+[log] CLICK on L[1901,119]@S(0) (535 msec)</msg>
+<status status="PASS" starttime="20220218 11:19:00.047" endtime="20220218 11:19:01.236"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:19:01.643" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201141314.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:19:01.236" endtime="20220218 11:19:01.643"/>
+</kw>
+<status status="PASS" starttime="20220218 11:18:17.728" endtime="20220218 11:19:01.643"/>
+</kw>
+<status status="PASS" starttime="20220218 11:18:17.724" endtime="20220218 11:19:01.643"/>
+</test>
+<test id="s1-t15" name="Estudio Legal">
+<kw name="Realizar Estudio Legal" library="EstudioDeRiesgos">
+<kw name="cargarImagenesEstudioRiesgos" library="EstudioDeRiesgos">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\estudioRiesgos</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:19:01.652" endtime="20220218 11:19:01.652"/>
+</kw>
+<status status="PASS" starttime="20220218 11:19:01.652" endtime="20220218 11:19:01.652"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:19:06.673" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220218 11:19:01.652" endtime="20220218 11:19:06.673"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnEstudioLegal.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:19:07.756" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201146944.png'/&gt;
+[log] CLICK on L[660,233]@S(0) (527 msec)</msg>
+<status status="PASS" starttime="20220218 11:19:06.673" endtime="20220218 11:19:07.757"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>70</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:20:17.760" level="INFO">Slept 1 minute 10 seconds</msg>
+<status status="PASS" starttime="20220218 11:19:07.757" endtime="20220218 11:20:17.760"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>numOfertaEconomica.PNG</arg>
+<arg>xOffset=145</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:20:18.597" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201218057.png'/&gt;
+[log] CLICK on L[227,267]@S(0) (539 msec)</msg>
+<status status="PASS" starttime="20220218 11:20:17.760" endtime="20220218 11:20:18.597"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnLupa.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:20:19.671" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201218856.png'/&gt;
+[log] CLICK on L[1901,119]@S(0) (544 msec)</msg>
+<status status="PASS" starttime="20220218 11:20:18.597" endtime="20220218 11:20:19.673"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:20:19.994" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201219741.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:20:19.673" endtime="20220218 11:20:19.994"/>
+</kw>
+<status status="PASS" starttime="20220218 11:19:01.652" endtime="20220218 11:20:19.994"/>
+</kw>
+<status status="PASS" starttime="20220218 11:19:01.649" endtime="20220218 11:20:20.002"/>
+</test>
+<test id="s1-t16" name="Reservacion del pedido">
+<kw name="Realizar Reservacion" library="EstudioDeRiesgos">
+<kw name="cargarImagenesEstudioRiesgos" library="EstudioDeRiesgos">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\estudioRiesgos</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:20:20.006" endtime="20220218 11:20:20.025"/>
+</kw>
+<status status="PASS" starttime="20220218 11:20:20.006" endtime="20220218 11:20:20.025"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:20:25.039" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220218 11:20:20.025" endtime="20220218 11:20:25.039"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnReservar</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:20:26.266" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201225439.png'/&gt;
+[log] CLICK on L[297,231]@S(0) (531 msec)</msg>
+<status status="PASS" starttime="20220218 11:20:25.039" endtime="20220218 11:20:26.266"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>90</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:21:56.276" level="INFO">Slept 1 minute 30 seconds</msg>
+<status status="PASS" starttime="20220218 11:20:26.266" endtime="20220218 11:21:56.276"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:21:56.660" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201316344.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:21:56.276" endtime="20220218 11:21:56.660"/>
+</kw>
+<status status="PASS" starttime="20220218 11:20:20.006" endtime="20220218 11:21:56.660"/>
+</kw>
+<status status="PASS" starttime="20220218 11:20:20.005" endtime="20220218 11:21:56.672"/>
+</test>
+<test id="s1-t17" name="Generar agendamiento">
+<kw name="Realizar Agendamiento" library="Agendamiento">
+<kw name="cargarImagenesAgendamiento" library="Agendamiento">
+<kw name="Add Image Path" library="SikuliLibrary">
+<arg>${EXECDIR}\\resources\\elements\\agendamiento</arg>
+<doc>Add image path</doc>
+<status status="PASS" starttime="20220218 11:21:56.678" endtime="20220218 11:21:56.697"/>
+</kw>
+<status status="PASS" starttime="20220218 11:21:56.678" endtime="20220218 11:21:56.697"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:22:02.725" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20220218 11:21:56.713" endtime="20220218 11:22:02.725"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>pestanaResumen.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:22:03.925" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201323119.png'/&gt;
+[log] CLICK on L[591,686]@S(0) (542 msec)</msg>
+<status status="PASS" starttime="20220218 11:22:02.725" endtime="20220218 11:22:03.925"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>90</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:23:33.939" level="INFO">Slept 1 minute 30 seconds</msg>
+<status status="PASS" starttime="20220218 11:22:03.925" endtime="20220218 11:23:33.939"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>pestanaPedidos.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:23:35.140" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201414307.png'/&gt;
+[log] CLICK on L[710,685]@S(0) (531 msec)</msg>
+<status status="PASS" starttime="20220218 11:23:33.939" endtime="20220218 11:23:35.140"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:23:37.143" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:23:35.140" endtime="20220218 11:23:37.143"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>NumeroDelPedido.PNG</arg>
+<arg>yOffset=25</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:23:37.974" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201417443.png'/&gt;
+[log] CLICK on L[74,757]@S(0) (531 msec)</msg>
+<status status="PASS" starttime="20220218 11:23:37.143" endtime="20220218 11:23:37.974"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:23:41.983" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20220218 11:23:37.974" endtime="20220218 11:23:41.983"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>pestañaAdministracionDeAgendas</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:23:43.137" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201422357.png'/&gt;
+[log] CLICK on L[667,661]@S(0) (540 msec)</msg>
+<status status="PASS" starttime="20220218 11:23:41.983" endtime="20220218 11:23:43.137"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:23:45.153" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:23:43.137" endtime="20220218 11:23:45.154"/>
+</kw>
+<kw name="Wheel Down" library="SikuliLibrary">
+<arg>8</arg>
+<doc>Wheel down
+ Move mouse to the target, and wheel down with give steps</doc>
+<status status="PASS" starttime="20220218 11:23:45.156" endtime="20220218 11:23:45.660"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:23:46.676" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:23:45.662" endtime="20220218 11:23:46.676"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnConsulta.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:23:47.795" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201426990.png'/&gt;
+[log] CLICK on L[359,752]@S(0) (532 msec)</msg>
+<status status="PASS" starttime="20220218 11:23:46.676" endtime="20220218 11:23:47.795"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:23:49.797" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220218 11:23:47.795" endtime="20220218 11:23:49.797"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnIr.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:23:50.953" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201430150.png'/&gt;
+[log] CLICK on L[290,755]@S(0) (549 msec)</msg>
+<status status="PASS" starttime="20220218 11:23:49.797" endtime="20220218 11:23:50.953"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>50</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:24:40.968" level="INFO">Slept 50 seconds</msg>
+<status status="PASS" starttime="20220218 11:23:50.953" endtime="20220218 11:24:40.968"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>tituloComentarios.PNG</arg>
+<arg>yOffset=25</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:24:41.821" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201481283.png'/&gt;
+[log] CLICK on L[1014,805]@S(0) (537 msec)</msg>
+<status status="PASS" starttime="20220218 11:24:40.968" endtime="20220218 11:24:41.821"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:24:42.831" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:24:41.821" endtime="20220218 11:24:42.832"/>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<arg>${EMPTY}</arg>
+<arg>Pruebas QA</arg>
+<doc>Input text.
+ Image could be empty</doc>
+<msg timestamp="20220218 11:24:43.637" level="INFO">Input Text:
+Pruebas QA
+[log]  TYPE "Pruebas QA"</msg>
+<status status="PASS" starttime="20220218 11:24:42.832" endtime="20220218 11:24:43.637"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:24:43.725" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:24:43.637" endtime="20220218 11:24:43.725"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:24:44.103" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201483802.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:24:43.725" endtime="20220218 11:24:44.103"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:24:49.116" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220218 11:24:44.103" endtime="20220218 11:24:49.116"/>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<arg>btnAgendarGrupo.PNG</arg>
+<doc>Click</doc>
+<msg timestamp="20220218 11:24:50.284" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201489431.png'/&gt;
+[log] CLICK on L[1243,755]@S(0) (535 msec)</msg>
+<status status="PASS" starttime="20220218 11:24:49.116" endtime="20220218 11:24:50.284"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>20</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:25:10.293" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20220218 11:24:50.284" endtime="20220218 11:25:10.293"/>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20220218 11:25:10.615" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1645201510362.png'/&gt;</msg>
+<status status="PASS" starttime="20220218 11:25:10.293" endtime="20220218 11:25:10.615"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>ENTER</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:25:10.700" level="INFO">[log]  TYPE "#ENTER."</msg>
+<status status="PASS" starttime="20220218 11:25:10.615" endtime="20220218 11:25:10.700"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220218 11:25:11.711" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220218 11:25:10.700" endtime="20220218 11:25:11.711"/>
+</kw>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20220218 11:25:11.802" level="INFO">[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20220218 11:25:11.711" endtime="20220218 11:25:11.802"/>
+</kw>
+<status status="PASS" starttime="20220218 11:21:56.678" endtime="20220218 11:25:11.802"/>
+</kw>
+<status status="PASS" starttime="20220218 11:21:56.676" endtime="20220218 11:25:11.809"/>
+</test>
+<doc>Test Suite para la asignacion de un ADSL nuevo</doc>
+<status status="PASS" starttime="20220218 11:08:24.809" endtime="20220218 11:25:11.816"/>
+</suite>
+<statistics>
+<total>
+<stat pass="17" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="17" fail="0" skip="0" id="s1" name="Siebel AsignacionADSL">Siebel AsignacionADSL</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
